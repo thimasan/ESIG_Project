@@ -10,12 +10,24 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 
 
 ## :books: Funcionalidades
+* <b>Docker</b>: O Docker tem como objetivo criar, testar e implementar aplicações em um ambiente separado da máquina original, chamado de container.   
+* <b>Kubernetes</b>: Kubernetes é um sistema de orquestração de contêineres open-source que automatiza a implantação, o dimensionamento e a gestão de aplicações em contêineres.  
+  * <b>Minikube</b>: O Minikube é uma implementação leve do Kubernetes que cria uma VM em sua máquina local e implanta um cluster simples contendo apenas um nó.
+* <b>PostgreSQL</b>: O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
+* <b>MongoDB</b>: É um banco de dados opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL.
+* <b>NodeJS</b>: Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
 
 ## :wrench: Tecnologias utilizadas
-* <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/></code>    Node JS
-* <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>    PostgreSQL
-* <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code>   MongoDB
+<table>
+  <tr>
+  <td align="center"><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/></code>    Node JS
+  <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>    PostgreSQL
+  <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code>   MongoDB
+    <td align="center" width="20%"><span><b><center>Git</center></b></span> <img height=65px src="https://img.icons8.com/ios-glyphs/2x/github-2.png"> 
+  </td>
+    </tr>
+</table>
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
