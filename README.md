@@ -31,10 +31,14 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 ## :wrench: Tecnologias utilizadas
 <table>
   <tr>
-  <td align="center"><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/></code>    Node JS
-  <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>    PostgreSQL
-  <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code>   MongoDB
-   <code><img height="32" src="https://img.icons8.com/ios-glyphs/2x/github-2.png" alt="MongoDB"/></code>   GitHub
+   <td align="center">
+      <code><img height="32" src="https://github.com/thimasan/ESIG_Project/blob/main/imagens_repositorio/docker_official_logo_icon_169250.png?raw=true"/></code>         Docker
+      <code><img height="32" src="https://github.com/thimasan/ESIG_Project/blob/main/imagens_repositorio/kubernetes.png?raw=true"/></code>   Kubernetes
+      <code><img height="32" src="https://github.com/thimasan/ESIG_Project/blob/main/imagens_repositorio/minikube.jpg?raw=true"/></code> Minikube
+      <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>    PostgreSQL
+      <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code>   MongoDB
+      <code><img height="32" src="https://github.com/thimasan/ESIG_Project/blob/main/imagens_repositorio/Node%20Medio.png?raw=true" alt="Nodejs"/></code> Node.JS
+      
 </table>
  
 * <b>Docker</b>: O Docker tem como objetivo criar, testar e implementar aplicações em um ambiente separado da máquina original, chamado de container.   
