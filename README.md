@@ -10,14 +10,24 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 
 
 ## :books: Funcionalidades
-* <b>Docker</b>: O Docker tem como objetivo criar, testar e implementar aplicações em um ambiente separado da máquina original, chamado de container.   
-* <b>Kubernetes</b>: Kubernetes é um sistema de orquestração de contêineres open-source que automatiza a implantação, o dimensionamento e a gestão de aplicações em contêineres.  
-  * <b>Minikube</b>: O Minikube é uma implementação leve do Kubernetes que cria uma VM em sua máquina local e implanta um cluster simples contendo apenas um nó.
-* <b>PostgreSQL</b>: O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
-* <b>MongoDB</b>: É um banco de dados opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL.
-* <b>NodeJS</b>: Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.
-* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
-
+* <b>RocketChat</b>:
+   - [x] Conferência de áudio e vídeo; 
+   - [x] Acesso de usuário convidado;
+   - [x] Compartilhamento de tela e arquivos; 
+   - [x] LiveChat; 
+   - [x] LDAP Group Sync;  
+   - [x] Autenticação de dois fatores (2FA); 
+   - [x] Criptografia E2E; 
+   - [x] Usuários ilimitados.
+* <b>Wiki.JS</b>:
+   - [x] Open source;
+   - [x] Pode gerenciar as permissões de usuários e artigos;
+   - [x] Possui sistema de busca;
+   - [x] Tem suporte a Markdown;
+   - [x] Fácil de instalar e Usar;
+   - [x] O aplicativo é executado no mecanismo Node.js. Ele é otimizado para usar poucos recursos de CPU.
+   - [x] O Wiki.js nos dá a possibilidade de inserir imagens, diagramas, documentos, vídeos, links, etc.
+ 
 ## :wrench: Tecnologias utilizadas
 <table>
   <tr>
@@ -26,6 +36,14 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
   <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code>   MongoDB
    <code><img height="32" src="https://img.icons8.com/ios-glyphs/2x/github-2.png" alt="MongoDB"/></code>   GitHub
 </table>
+ 
+* <b>Docker</b>: O Docker tem como objetivo criar, testar e implementar aplicações em um ambiente separado da máquina original, chamado de container.   
+* <b>Kubernetes</b>: Kubernetes é um sistema de orquestração de contêineres open-source que automatiza a implantação, o dimensionamento e a gestão de aplicações em contêineres.  
+  * <b>Minikube</b>: O Minikube é uma implementação leve do Kubernetes que cria uma VM em sua máquina local e implanta um cluster simples contendo apenas um nó.
+* <b>PostgreSQL</b>: O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
+* <b>MongoDB</b>: É um banco de dados opensource, de alta performance e flexível, sendo considerado o principal banco de dados NoSQL.
+* <b>NodeJS</b>: Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.
+* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
