@@ -50,15 +50,22 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
 
 ## :rocket: Rodando o projeto
-Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
-```
-<linha de comando>
-```
-
+   * <h3>Pré-requisitos:</h3>
+   - [x] [Ubuntu 20.04](https://ubuntu.com/download/desktop).
+   - [x] [Minikube](https://minikube.sigs.k8s.io/docs/start/).
+   - [x] [Docker](https://docs.docker.com/engine/install/).
+   - [x] [Minikube](https://minikube.sigs.k8s.io/docs/start/).
+   - [x] [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) CLI installed.
+   - [x] [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/).
+   - [x] [Kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/).
+   
+## To execute the project using [Minikube](https://minikube.sigs.k8s.io/docs/start/)  [K8s](https://kubernetes.io/) cluster :
 ## :soon: Implementação futura
 *<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code> O que será implementado na próxima sprint?
 
+   
+   
 ## :handshake: Colaboradores
 <table>
   <tr>
