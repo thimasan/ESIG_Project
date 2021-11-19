@@ -24,9 +24,7 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
   <td align="center"><code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/></code>    Node JS
   <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>    PostgreSQL
   <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code>   MongoDB
-    <td align="center" width="20%"><span><b><center>Git</center></b></span> <img height=65px src="https://img.icons8.com/ios-glyphs/2x/github-2.png"> 
-  </td>
-    </tr>
+   <code><img height="32" src="https://img.icons8.com/ios-glyphs/2x/github-2.png" alt="MongoDB"/></code>   GitHub
 </table>
 
 ## :rocket: Rodando o projeto
