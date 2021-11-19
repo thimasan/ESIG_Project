@@ -50,21 +50,35 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 * <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
 
 ## :rocket: Rodando o projeto
-   * <h3>Pré-requisitos:</h3>
-   - [x] [Ubuntu 20.04](https://ubuntu.com/download/desktop).
-   - [x] [Minikube](https://minikube.sigs.k8s.io/docs/start/).
-   - [x] [Docker](https://docs.docker.com/engine/install/).
-   - [x] [Minikube](https://minikube.sigs.k8s.io/docs/start/).
-   - [x] [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) CLI installed.
-   - [x] [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/).
-   - [x] [Kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/).
-   
-## To execute the project using [Minikube](https://minikube.sigs.k8s.io/docs/start/)  [K8s](https://kubernetes.io/) cluster :
-## :soon: Implementação futura
-*<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png" alt="PostegreSQL"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" alt="MongoDB"/></code> O que será implementado na próxima sprint?
+   *  <h3><b> Pré-requisitos:</b></h3>
+ IMPORTANTE:   Visando a fácil leitura e utilização deste README, os processos de download e instalação dos programas necessários
+       ao projeto encontram-se nos links associados aos seus respectivos nomes.  o clicar nos tópicos abaixo você será redirecionado para os 
+       sites e repositórios oficiais.
+- [x] [Ubuntu 20.04](https://ubuntu.com/download/desktop). 
+   - Após instalar o Ubuntu, fazer o update e upgrade dos recursos nativos e instalar os programas auxiliares que nos ajudarão no processo de implementação, 
+   como um editor de texto de sua preferência, uma IDE de desenvolvimento (ex.: VSCode, Brackets) e programas auxiliares como o VIM ou Nano (minha preferência).
+- [x] [Minikube](https://minikube.sigs.k8s.io/docs/start/).
+- [x] [Docker](https://docs.docker.com/engine/install/).
+- [x] [Minikube](https://minikube.sigs.k8s.io/docs/start/).
+- [x] [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) CLI installed.
+- [x] [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/).
+- [x] [Kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/).
 
+## :soon: Implementação Rocket-CHat
+   * Criação da Imagem Rocket Chat
+   * Criação da Image do MongoDB
+   * Instalação e Configuração do Banco de Dados
+   * Instalação do Conteiner do Rocket Chat
+   * Deploy do Serviço no Kubernetes
+       - OBSERVAÇÕES IMPORTANTES
    
+## :soon: Implementação Wiki.JS
+   * Criação da Imagem do Wiki
+   * Instalação e Configuração do Banco de Dados
+   * Instalação do Conteiner do Wiki
+   * Deploy do Serviço no Kubernetes
+       - OBSERVAÇÕES IMPORTANTES
+
    
 ## :handshake: Colaboradores
 <table>
@@ -78,3 +92,4 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 </table>
 
 ## :dart: Status do projeto
+       * EM DESENVILVIMENTO
