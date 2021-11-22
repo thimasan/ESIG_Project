@@ -66,7 +66,7 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 
 ## :soon: Implementação Rocket-CHat
    * Criação da Imagem Rocket Chat
-   * Criação da Image do MongoDB
+   * Criação da Imagem do MongoDB
    * Instalação e Configuração do Banco de Dados
    * Instalação do Conteiner do Rocket Chat
    * Deploy do Serviço no Kubernetes
