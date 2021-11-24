@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rocket-deployment
+  labels:
+    app: rocket
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rocket
+  template:
+    metadata:
+      labels:
+        app: rocket
+    spec:
+      containers:
+      - name: rocket
+        image: rocketchat/rocket.chat:latest
+        resources:
+          limits:
+            memory: "2Gi"
+            cpu: "1"
+        ports: 
+        - containerPort: 3000
+        env:
+        - name: USER_NAME
+          valueFrom: 
+            secretKeyRef:
+              name: mongo-secret
+              key: mongo-user
+        - name: USER_PWD
+          valueFrom: 
+            secretKeyRef:
+              name: mongo-secret
+              key: mongo-password
+        - name: DB_URL
+          valueFrom:
+            configMapKeyRef:
+              name: mongo-config
+              key: mongo-url
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rocket-service
+spec:
+  type: NodePort
+  selector:
+    app: rocket
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
+      nodePort: 30999
