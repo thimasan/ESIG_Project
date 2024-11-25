@@ -92,4 +92,4 @@ Todo o ambiente será provisionado utilizando o Kubernetes como ferramenta de or
 </table>
 
 ## :dart: Status do projeto
-       * EM DESENVOLVIMENTO
+       * ARQUIVADO POR TEMPO INDETERMINADO
